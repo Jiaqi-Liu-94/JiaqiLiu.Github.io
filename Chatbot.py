@@ -210,6 +210,7 @@ model.save('chatbot_model.h5', hist)
 print("model is created")
 
 ##result
+
 Epoch 1/200
 10/10 [==============================] - 0s 892us/step - loss: 2.1836 - accuracy: 0.1489
 Epoch 2/200
@@ -277,11 +278,11 @@ import json
 
 import random
 
-intents = json.loads(open('/Users/liujiaqi/Downloads/python-project-chatbot-codes/intents.json').read())
+intents = json.loads(open('intents.json').read())
 
-words = pickle.load(open('/Users/liujiaqi/Downloads/python-project-chatbot-codes/words.pkl','rb'))
+words = pickle.load(open('words.pkl','rb'))
 
-classes = pickle.load(open('/Users/liujiaqi/Downloads/python-project-chatbot-codes/classes.pkl','rb'))
+classes = pickle.load(open('classes.pkl','rb'))
 
 def clean_up_sentence(sentence):
 
@@ -440,7 +441,6 @@ EntryBox.place(x=128, y=401, height=90, width=265)
 SendButton.place(x=6, y=401, height=90)
 
 root.mainloop()
-
 
 
 
