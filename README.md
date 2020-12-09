@@ -5,15 +5,19 @@ Tensorflow Chatbot
 Overview
 --------
 This is the full code for how to make a simple chatbot.
-In this demo code, we implement Tensorflows Sequence to Sequence model to train a chatbot on the dataset. 
+In this demo code, I implement Tensorflows Sequence to Sequence model to train a chatbot on the dataset. 
 After training, the bot is able to hold a fun conversation.
 
 Dependencies
 ------------
 numpy
+
 scipy
+
 NLTK
+
 tensorflow (https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html)
+
 Use pip to install any missing dependencies
 
 File 
