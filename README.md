@@ -4,9 +4,9 @@ Tensorflow Chatbot
 
 Overview
 --------
-This is the full code for how to make a simple chatbot
-In this demo code, we implement Tensorflows Sequence to Sequence model to train a chatbot on the Cornell Movie Dialogue dataset. 
-After training for a few hours, the bot is able to hold a fun conversation.
+This is the full code for how to make a simple chatbot.
+In this demo code, we implement Tensorflows Sequence to Sequence model to train a chatbot on the dataset. 
+After training, the bot is able to hold a fun conversation.
 
 Dependencies
 ------------
@@ -18,6 +18,7 @@ Use pip to install any missing dependencies
 
 File 
 ----
+All files can be downloaded from zip folder
 **Train_chatbot.py **
 
 - In this file, we will build and train the deep learning model that can classify and identify what the user is asking to the bot.
